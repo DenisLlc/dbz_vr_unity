@@ -1,0 +1,409 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.10f1 (1c7d0df0160b) revision 1867021'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19042) 64bit Professional' Language: 'es' Physical Memory: 16253 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.10f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/User/unity-workspace/DBZ
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+60470
+Successfully changed project path to: C:/Users/User/unity-workspace/DBZ
+C:/Users/User/unity-workspace/DBZ
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 68.36 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 1.83 ms.
+Initialize engine version: 2021.3.10f1 (1c7d0df0160b)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/User/unity-workspace/DBZ/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 6600 XT (ID=0x73ff)
+    Vendor:   ATI
+    VRAM:     8147 MB
+    Driver:   30.0.13023.4001
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56984
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005529 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 82.90 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 0.13 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.550 seconds
+Domain Reload Profiling:
+	ReloadAssembly (551ms)
+		BeginReloadAssembly (55ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (407ms)
+			LoadAssemblies (54ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (86ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (23ms)
+			SetupLoadedEditorAssemblies (253ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (46ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (83ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (81ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.008580 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\User\unity-workspace\DBZ\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\User\unity-workspace\DBZ\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 0.09 ms.
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.488 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1488ms)
+		BeginReloadAssembly (196ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (125ms)
+		EndReloadAssembly (1199ms)
+			LoadAssemblies (67ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (225ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (828ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (79ms)
+				ProcessInitializeOnLoadAttributes (702ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.54 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 0.07 ms.
+Unloading 3428 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 50 unused Assets / (123.3 KB). Loaded Objects now: 4162.
+Memory consumption went from 121.7 MB to 121.6 MB.
+Total: 2.556300 ms (FindLiveObjects: 0.259700 ms CreateObjectMapping: 0.155100 ms MarkObjects: 2.036800 ms  DeleteObjects: 0.103600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 99053.313851 seconds.
+  path: Assets/Resources/VuforiaConfiguration.asset
+  artifactKey: Guid(e9ee7507c7f66b246a1aeb43d723cac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/VuforiaConfiguration.asset using Guid(e9ee7507c7f66b246a1aeb43d723cac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47162f4c2d682455aab7794cbf100845') in 0.025217 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 88.035513 seconds.
+  path: Assets/Resources/VuforiaConfiguration.asset
+  artifactKey: Guid(e9ee7507c7f66b246a1aeb43d723cac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/VuforiaConfiguration.asset using Guid(e9ee7507c7f66b246a1aeb43d723cac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4486cd802f9aa110a2f227f96baff6ad') in 0.001391 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009734 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\User\unity-workspace\DBZ\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\User\unity-workspace\DBZ\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 0.09 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+  at VuforiaEnabledObserver..cctor () [0x00000] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.NullReferenceException: Object reference not set to an instance of an object
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetVuforiaPackageAbsPath () [0x0004a] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.IsPackageManager () [0x00000] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.ResolvePluginType () [0x00009] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+  at Vuforia.EditorClasses.ExtensionTypeProvider.GetPluginType () [0x0000c] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+  at Vuforia.EditorClasses.VuforiaUtilities.IsVuforiaEnabledInPlayerSettings () [0x00000] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+  at Vuforia.EditorClasses.InitializeOnLoadVuforiaTaskRunner..cctor () [0x00015] in <1eeb02fed4e1457ca36420f2a9e57f5e>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.311 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1311ms)
+		BeginReloadAssembly (116ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (1106ms)
+			LoadAssemblies (68ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (206ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (772ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (51ms)
+				ProcessInitializeOnLoadAttributes (678ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.81 ms, found 6 plugins.
+Preloading 2 native plugins for Editor in 0.10 ms.
+Unloading 3409 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 45 unused Assets / (138.4 KB). Loaded Objects now: 4167.
+Memory consumption went from 120.2 MB to 120.1 MB.
+Total: 2.534700 ms (FindLiveObjects: 0.229600 ms CreateObjectMapping: 0.144100 ms MarkObjects: 1.996000 ms  DeleteObjects: 0.163900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 227.007924 seconds.
+  path: Assets/Solar System/ImageTargets/Earth.jpg
+  artifactKey: Guid(95df6e57c7ac7734d8ebe9aacfa32344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Solar System/ImageTargets/Earth.jpg using Guid(95df6e57c7ac7734d8ebe9aacfa32344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '604b2e7f4466299b769dda58a1d83591') in 0.086473 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Solar System/ImageTargets/SolarSystem.jpg
+  artifactKey: Guid(cf854d0ccc6a04f4da6688d72ffe3514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Solar System/ImageTargets/SolarSystem.jpg using Guid(cf854d0ccc6a04f4da6688d72ffe3514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77e7fa8bfb84d2b2217408a7afff89e7') in 0.011774 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Solar System/ImageTargets/Saturn.jpg
+  artifactKey: Guid(31d5352400df0904bb246b46a02ecc6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Solar System/ImageTargets/Saturn.jpg using Guid(31d5352400df0904bb246b46a02ecc6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b9795316c5d455018c737200df66a3d') in 0.015236 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Solar System/ImageTargets/Neptune.jpg
+  artifactKey: Guid(ac9dfb2bcc12a044985e48bc5ec2dc30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Solar System/ImageTargets/Neptune.jpg using Guid(ac9dfb2bcc12a044985e48bc5ec2dc30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e00b88d54697a41cd1efebb23d7df739') in 0.027953 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Solar System/ImageTargets/Mars.jpg
+  artifactKey: Guid(ca7eff08adca9a64fa63bfd305b67183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Solar System/ImageTargets/Mars.jpg using Guid(ca7eff08adca9a64fa63bfd305b67183) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89e0f20bc2598a85b9633c35d656a85d') in 0.011921 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.260921 seconds.
+  path: Assets/dbz/esferas2.jpg
+  artifactKey: Guid(52fa3225693df7a4a8c9e496524982a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/dbz/esferas2.jpg using Guid(52fa3225693df7a4a8c9e496524982a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e89437eca30080d9aed09bba3a89e328') in 0.015741 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 82.838376 seconds.
+  path: Assets/Solar System/Prefabs/Jupiter.prefab
+  artifactKey: Guid(e5dc218c91166714c8381755776bedad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Solar System/Prefabs/Jupiter.prefab using Guid(e5dc218c91166714c8381755776bedad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ed5879de540cbf956b88306758cef41') in 0.150557 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Solar System/Prefabs/Neptune.prefab
+  artifactKey: Guid(e0cabfe3b23ef9b4d9a8d9508570f02c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Solar System/Prefabs/Neptune.prefab using Guid(e0cabfe3b23ef9b4d9a8d9508570f02c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56016453acce104509f890ef7c630cfc') in 0.035733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Solar System/Prefabs/Mercury.prefab
+  artifactKey: Guid(11bc766e00bb8de43b5d5f544989ee51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Solar System/Prefabs/Mercury.prefab using Guid(11bc766e00bb8de43b5d5f544989ee51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '917730a5c4a84f273c4eb4dee16cae0f') in 0.034253 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Solar System/Prefabs/Saturn.prefab
+  artifactKey: Guid(3a0233642dddcd2488d55ea52bdf6478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Solar System/Prefabs/Saturn.prefab using Guid(3a0233642dddcd2488d55ea52bdf6478) Importer(815301076,1909f56bfc062723c751e8b465ee728b) SendMessage cannot be called during Awake, CheckConsistency, or OnValidate (Saturn Ring: OnMeshFilterChanged)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+PlanetRing:SetUpRing () (at Assets/Solar System/Scripts/PlanetRing.cs:61)
+PlanetRing:OnValidate () (at Assets/Solar System/Scripts/PlanetRing.cs:33)
+
+[Assets/Solar System/Scripts/PlanetRing.cs line 61]
+
+ -> (artifact id: '6fd1aa21fb5a8d69a3354aefd00870df') in 0.173399 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.095702 seconds.
+  path: Assets/Solar System/Materials/Jupiter.mat
+  artifactKey: Guid(ce60e10ce8c7b6e45824efd108efcfc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Solar System/Materials/Jupiter.mat using Guid(ce60e10ce8c7b6e45824efd108efcfc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89cb527d2a9859282afd14f028917dc3') in 0.050743 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Solar System/Materials/Mercury.mat
+  artifactKey: Guid(f4520b7fde559164680dd8e13880516a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Solar System/Materials/Mercury.mat using Guid(f4520b7fde559164680dd8e13880516a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7bfc424b8247670f3f92d22234643b5') in 0.026166 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Solar System/Materials/Sun.mat
+  artifactKey: Guid(e308380416c2ede488220e3563b05579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Solar System/Materials/Sun.mat using Guid(e308380416c2ede488220e3563b05579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86f30520fd31f6b0835d791f5dd5d4b9') in 0.026177 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Solar System/Materials/Mars.mat
+  artifactKey: Guid(f78d285a0b3461444a5bf91ea23d4ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Solar System/Materials/Mars.mat using Guid(f78d285a0b3461444a5bf91ea23d4ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92caf39390d63ad2ace3e97e24e554d5') in 0.020444 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Solar System/Materials/Uranus.mat
+  artifactKey: Guid(f2d141db0f0342542b119edb20503b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Solar System/Materials/Uranus.mat using Guid(f2d141db0f0342542b119edb20503b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '739f7c8a95971a751dc616c3fa30e876') in 0.019054 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Solar System/Materials/Saturn.mat
+  artifactKey: Guid(0fe25eb27e973a14285a70e46af4f8b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Solar System/Materials/Saturn.mat using Guid(0fe25eb27e973a14285a70e46af4f8b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5483c775e88d41536bda069b5134dfbe') in 0.021337 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Solar System/Materials/Neptune.mat
+  artifactKey: Guid(65b5bb2774d39d540a6128c3410878b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Solar System/Materials/Neptune.mat using Guid(65b5bb2774d39d540a6128c3410878b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bab17373e69c1f05ffe7874113e98950') in 0.026353 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
